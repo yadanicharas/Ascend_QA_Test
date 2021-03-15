@@ -10,6 +10,8 @@ ${XPATH_Navigate_Menu_Table}  xpath=//*[@id="navbar-brand-centered"]/ul[1]/li[3]
 ${XPATH_Navigate_Table Sort&Search}  xpath=//*[@id="navbar-brand-centered"]/ul[1]/li[3]/ul/li[4]/a
 ${XPATH_Navigate_AGE}  xpath=//*[@id="example"]/thead/tr/th[4]
 
+*** Keywords ***
+
 *** Test Cases ***
 1.Navigate to browser:
     Open Browser  ${URL}  ${BROWSER}
